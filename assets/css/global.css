@@ -1,0 +1,24 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; /*considerar a borda como tamanho total*/
+}
+
+body{
+    background-color: #EFF2F8;
+}
+
+.content {
+    padding: 1rem; /*rem é tamanho relativo*/
+    background-color: #fff;
+    height: 100vh; /*vh view height */
+    width: 100vw;
+}
+
+@media screen and (min-width: 992px){
+    .content{
+        max-width: 992px;
+        margin: 1rem auto;
+        height: auto;
+        border-radius: 1rem;
+    }
+}
